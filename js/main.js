@@ -145,4 +145,9 @@ async function fetchGitHubRepos() {
 // Enter key support for GitHub input
 document.getElementById('githubUsername').addEventListener('keydown', (e) => {
   if (e.key === 'Enter') fetchGitHubRepos();
+
+   document.addEventListener('DOMContentLoaded', () => {
+  const input = document.getElementById('githubUsername');
+  if (input.value) fetchGitHubRepos();
+});
 });
