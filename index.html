@@ -38,10 +38,10 @@
     </div>
 
     <div class="nav-socials">
-      <a href="#" target="_blank" title="GitHub">
+      <a href="https://github.com/kkyu6513" target="_blank" title="GitHub">
         <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
       </a>
-      <a href="#" target="_blank" title="LinkedIn">
+      <a href="https://github.com/kkyu6513" target="_blank" title="LinkedIn">
         <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
       </a>
       <a href="#" target="_blank" title="Behance">
@@ -217,23 +217,110 @@
 
 
   <!-- ═══════════════════════════════════════
-       PROJECTS (GitHub Integration)
+       PROJECTS — Featured Works
   ════════════════════════════════════════ -->
   <section id="projects">
     <div class="container reveal">
       <div class="section-tag">Projects</div>
-      <h2 class="section-title">GitHub Repositories</h2>
-      <div class="github-input-area">
-        <input type="text" id="githubUsername" placeholder="GitHub 유저네임 입력" value="kkyu6513">
-        <button onclick="fetchGitHubRepos()">불러오기</button>
-      </div>
-      <div class="projects-grid" id="projectsGrid">
-        <div class="project-placeholder">
-          <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" style="opacity:0.3;margin-bottom:0.75rem">
-            <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0020 4.77 5.07 5.07 0 0019.91 1S18.73.65 16 2.48a13.38 13.38 0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 005 4.77a5.44 5.44 0 00-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 009 18.13V22"/>
-          </svg>
-          <p>GitHub 유저네임을 입력하고 불러오기를 클릭하세요.</p>
-        </div>
+      <h2 class="section-title">Featured Works</h2>
+
+      <div class="works-grid">
+
+        <!-- Work 1: Portfolio Website -->
+        <a href="https://kkyu6513.github.io/portfolio/" target="_blank" class="work-card work-card--large">
+          <div class="work-thumb" style="background: linear-gradient(135deg, #EDE8FF 0%, #FCE4EC 40%, #E0F7FA 70%, #F3E5F5 100%);">
+            <div class="work-thumb-mockup">
+              <div class="mockup-browser">
+                <div class="mockup-dots"><span></span><span></span><span></span></div>
+                <div class="mockup-content">
+                  <div class="mockup-nav"></div>
+                  <div class="mockup-hero">
+                    <div class="mockup-badge"></div>
+                    <div class="mockup-title"></div>
+                    <div class="mockup-subtitle"></div>
+                    <div class="mockup-btn"></div>
+                  </div>
+                  <div class="mockup-cards">
+                    <div class="mockup-card-sm"></div>
+                    <div class="mockup-card-sm"></div>
+                    <div class="mockup-card-sm"></div>
+                    <div class="mockup-card-sm"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="work-info">
+            <div class="work-tags">
+              <span class="work-tag">Web Design</span>
+              <span class="work-tag">Responsive</span>
+              <span class="work-tag">GitHub Pages</span>
+            </div>
+            <h3>Portfolio Website</h3>
+            <p>소프트 파스텔 그라데이션과 라벤더 액센트의 미니멀 클린 반응형 포트폴리오. GitHub API 연동으로 프로젝트를 실시간 로딩합니다.</p>
+            <span class="work-link">Live Site →</span>
+          </div>
+        </a>
+
+        <!-- Work 2: Design Guide -->
+        <a href="https://github.com/kkyu6513/portfolio/blob/main/docs/design-guide.docx" target="_blank" class="work-card">
+          <div class="work-thumb" style="background: linear-gradient(135deg, #F3E5F5 0%, #EDE8FF 100%);">
+            <div class="work-thumb-mockup">
+              <div class="mockup-doc">
+                <div class="mockup-doc-header"></div>
+                <div class="mockup-doc-title"></div>
+                <div class="mockup-doc-line w80"></div>
+                <div class="mockup-doc-line w60"></div>
+                <div class="mockup-doc-swatch-row">
+                  <div class="mockup-swatch" style="background:#7C5CFC"></div>
+                  <div class="mockup-swatch" style="background:#EDE8FF"></div>
+                  <div class="mockup-swatch" style="background:#1A1528"></div>
+                  <div class="mockup-swatch" style="background:#6E6980"></div>
+                </div>
+                <div class="mockup-doc-line w90"></div>
+                <div class="mockup-doc-line w70"></div>
+              </div>
+            </div>
+          </div>
+          <div class="work-info">
+            <div class="work-tags">
+              <span class="work-tag">Design System</span>
+              <span class="work-tag">Documentation</span>
+            </div>
+            <h3>Design Guide</h3>
+            <p>컬러, 타이포그래피, 컴포넌트, 애니메이션 등 전체 비주얼 아이덴티티를 정의한 디자인 가이드 문서.</p>
+            <span class="work-link">View Document →</span>
+          </div>
+        </a>
+
+        <!-- Work 3: GitHub Integration -->
+        <a href="https://github.com/kkyu6513/portfolio" target="_blank" class="work-card">
+          <div class="work-thumb" style="background: linear-gradient(135deg, #E0F7FA 0%, #EDE8FF 100%);">
+            <div class="work-thumb-mockup">
+              <div class="mockup-code">
+                <div class="code-line"><span class="code-kw">async</span> <span class="code-fn">fetchGitHubRepos</span>() {</div>
+                <div class="code-line">&nbsp;&nbsp;<span class="code-kw">const</span> res = <span class="code-kw">await</span> <span class="code-fn">fetch</span>(</div>
+                <div class="code-line">&nbsp;&nbsp;&nbsp;&nbsp;<span class="code-str">`api.github.com`</span></div>
+                <div class="code-line">&nbsp;&nbsp;);</div>
+                <div class="code-line">&nbsp;&nbsp;<span class="code-kw">const</span> repos = <span class="code-kw">await</span> res.<span class="code-fn">json</span>();</div>
+                <div class="code-line">&nbsp;&nbsp;grid.innerHTML = repos</div>
+                <div class="code-line">&nbsp;&nbsp;&nbsp;&nbsp;.<span class="code-fn">map</span>(createCard)</div>
+                <div class="code-line">}</div>
+              </div>
+            </div>
+          </div>
+          <div class="work-info">
+            <div class="work-tags">
+              <span class="work-tag">JavaScript</span>
+              <span class="work-tag">API</span>
+              <span class="work-tag">Open Source</span>
+            </div>
+            <h3>GitHub API Integration</h3>
+            <p>GitHub REST API를 활용한 실시간 저장소 연동 시스템. 프로젝트 카드 자동 생성 및 언어별 컬러 표시.</p>
+            <span class="work-link">View Code →</span>
+          </div>
+        </a>
+
       </div>
     </div>
   </section>
@@ -255,10 +342,10 @@
         hello@example.com
       </a>
       <div class="contact-socials">
-        <a href="#" target="_blank" title="GitHub">
+        <a href="https://github.com/kkyu6513" target="_blank" title="GitHub">
           <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
         </a>
-        <a href="#" target="_blank" title="LinkedIn">
+        <a href="https://github.com/kkyu6513" target="_blank" title="LinkedIn">
           <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
         </a>
         <a href="#" target="_blank" title="Behance">
@@ -299,7 +386,7 @@
       </div>
       <div class="footer-col">
         <h4>Follow me</h4>
-        <a href="#">GitHub</a>
+        <a href="https://github.com/kkyu6513" target="_blank">GitHub</a>
         <a href="#">LinkedIn</a>
         <a href="#">Behance</a>
         <a href="#">Dribbble</a>
